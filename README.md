@@ -30,9 +30,15 @@ README.md
 
 ## Prerequisites
 
+### For Building
+
 - Java 17
 - Maven
 - Git
+
+### For running .jar
+
+- Java 17
 
 ## Getting Started
 
@@ -58,7 +64,7 @@ README.md
 4. Alternatively, you can run the jar file:
 
    ```bash
-   java -jar target/directory-tree-service-0.0.1-SNAPSHOT.jar
+   java -jar directory-tree-service-0.0.1-SNAPSHOT.jar
    ```
 
    **Note:** Running the jar file will create a `data` directory in the current directory where the jar is run. This directory contains the H2 database file.
