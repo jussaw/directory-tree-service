@@ -121,3 +121,14 @@ README.md
    ```bash
    curl -X GET "http://localhost:8080/directories/list"
    ```
+
+## Accessing the Database
+
+The application uses an H2 database, which can be accessed through the H2 console.
+
+1. Start the application using one of the methods described in the "Getting Started" section.
+2. Open a web browser and navigate to `http://localhost:8080/h2-console`.
+3. Use the following settings to connect to the database:
+   - **JDBC URL:** `jdbc:h2:file:./data/directory-tree`
+   - **User Name:** `sa`
+   - **Password:** _(leave blank)_
